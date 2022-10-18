@@ -32,7 +32,7 @@ def print_spicy_foods(spicy_foods)
   # your code here
  
      spicy_foods.map do |food|
-      #puts "#{food[:name]} (#{food[:cuisine]}) | Heat level: #{'🌶' * food[:heat_level]}"
+      
      puts "#{food[:name]} (#{food[:cuisine]}) | Heat Level: #{'🌶' * food[:heat_level]}"
      end
 end
